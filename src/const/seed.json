@@ -1,0 +1,2422 @@
+[
+  {
+    "city": [
+      {
+        "id": "5a4eb7f9-e51f-453f-bcc5-8e8f5242e223",
+        "name": "New York",
+        "history": "Founded in 1624",
+        "danger_level": 54061,
+        "internet_coverage": 83951,
+        "taxi_availability": 34214,
+        "hotel_count": 45380,
+        "created_at": "2023-09-20T23:52:34.951Z",
+        "updated_at": "2023-09-21T02:13:32.737Z"
+      },
+      {
+        "id": "f406de3e-2990-436d-9f2f-5866e60f01ac",
+        "name": "London",
+        "history": "Known for its iconic landmarks",
+        "danger_level": 44228,
+        "internet_coverage": 5969,
+        "taxi_availability": 47226,
+        "hotel_count": 6094,
+        "created_at": "2023-09-21T09:51:09.998Z",
+        "updated_at": "2023-09-21T13:27:23.859Z"
+      },
+      {
+        "id": "c3320497-4b10-45c5-9521-d59eb0dca6bd",
+        "name": "Paris",
+        "history": "Hosted the Olympic Games in 2000",
+        "danger_level": 21040,
+        "internet_coverage": 79329,
+        "taxi_availability": 70915,
+        "hotel_count": 47946,
+        "created_at": "2023-09-21T15:28:45.337Z",
+        "updated_at": "2023-09-21T07:41:00.152Z"
+      },
+      {
+        "id": "d5efc0cd-f240-4add-ad17-66cc5a6e68d2",
+        "name": "Tokyo",
+        "history": "Famous for its cuisine",
+        "danger_level": 64312,
+        "internet_coverage": 22983,
+        "taxi_availability": 10198,
+        "hotel_count": 78261,
+        "created_at": "2023-09-21T15:58:37.293Z",
+        "updated_at": "2023-09-21T02:10:29.044Z"
+      },
+      {
+        "id": "8781b35e-3705-4011-b541-21489db81a76",
+        "name": "Sydney",
+        "history": "Home to many cultural institutions",
+        "danger_level": 73957,
+        "internet_coverage": 5013,
+        "taxi_availability": 10321,
+        "hotel_count": 71708,
+        "created_at": "2023-09-21T13:02:53.722Z",
+        "updated_at": "2023-09-21T14:02:36.495Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "6b232183-ea1e-444a-8fca-178aaf003d36",
+        "name": "John Smith",
+        "role": "Manager",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T03:55:30.662Z",
+        "updated_at": "2023-09-20T21:13:17.753Z",
+        "city_id": "f406de3e-2990-436d-9f2f-5866e60f01ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d99cd4a9-33fe-41c2-a1ca-0b8bc0324d64",
+        "name": "Jane Doe",
+        "role": "Engineer",
+        "bio": "Enjoys outdoor activities",
+        "created_at": "2023-09-21T18:56:07.153Z",
+        "updated_at": "2023-09-21T11:08:28.627Z",
+        "city_id": "5a4eb7f9-e51f-453f-bcc5-8e8f5242e223",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c19d8391-357d-43a1-b224-b542f732630c",
+        "name": "Michael Brown",
+        "role": "Designer",
+        "bio": "Loves to travel",
+        "created_at": "2023-09-21T17:10:01.350Z",
+        "updated_at": "2023-09-21T08:16:27.106Z",
+        "city_id": "8781b35e-3705-4011-b541-21489db81a76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "622b022e-f0fd-4011-a1ac-c59586940ae2",
+        "name": "Sarah Jones",
+        "role": "Salesperson",
+        "bio": "Dedicated to helping others",
+        "created_at": "2023-09-21T04:23:12.113Z",
+        "updated_at": "2023-09-21T08:44:37.803Z",
+        "city_id": "5a4eb7f9-e51f-453f-bcc5-8e8f5242e223",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9a7b682-2707-4bb8-89fb-a1a589e91692",
+        "name": "David Wilson",
+        "role": "Consultant",
+        "bio": "Creative problem solver",
+        "created_at": "2023-09-21T18:50:28.278Z",
+        "updated_at": "2023-09-21T01:41:41.500Z",
+        "city_id": "8781b35e-3705-4011-b541-21489db81a76",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "e7e36981-722b-4851-a227-52d014975649",
+        "name": "City Council",
+        "contact": "admin@example.com",
+        "created_at": "2023-09-20T19:51:42.210Z",
+        "updated_at": "2023-09-21T11:34:26.242Z",
+        "city_id": "c3320497-4b10-45c5-9521-d59eb0dca6bd"
+      },
+      {
+        "id": "a5239967-8d28-4c02-9b4b-a48495f85865",
+        "name": "Municipal Corporation",
+        "contact": "contact@localauthority.org",
+        "created_at": "2023-09-21T13:13:37.256Z",
+        "updated_at": "2023-09-21T06:38:06.875Z",
+        "city_id": "5a4eb7f9-e51f-453f-bcc5-8e8f5242e223"
+      },
+      {
+        "id": "6ba607b9-7df6-4968-a132-4eb8aab3664b",
+        "name": "County Government",
+        "contact": "info@citycouncil.gov",
+        "created_at": "2023-09-21T17:10:52.558Z",
+        "updated_at": "2023-09-21T06:32:16.224Z",
+        "city_id": "f406de3e-2990-436d-9f2f-5866e60f01ac"
+      },
+      {
+        "id": "4f5a1d4e-24e9-4e47-9cf5-d626e693a455",
+        "name": "Township Administration",
+        "contact": "support@municipality.gov",
+        "created_at": "2023-09-21T17:38:23.500Z",
+        "updated_at": "2023-09-21T01:58:20.670Z",
+        "city_id": "d5efc0cd-f240-4add-ad17-66cc5a6e68d2"
+      },
+      {
+        "id": "68a24221-2ae5-46dd-b2ec-c3b9616706ce",
+        "name": "Village Board",
+        "contact": "feedback@county.gov",
+        "created_at": "2023-09-21T19:00:02.739Z",
+        "updated_at": "2023-09-21T16:12:00.904Z",
+        "city_id": "8781b35e-3705-4011-b541-21489db81a76"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "353f1ad9-993a-44fa-8b1b-b8106286e3ea",
+        "name": "The Syndicate",
+        "description": "Notorious criminal organization",
+        "created_at": "2023-09-20T23:51:23.508Z",
+        "updated_at": "2023-09-21T01:37:16.690Z",
+        "city_id": "c3320497-4b10-45c5-9521-d59eb0dca6bd"
+      },
+      {
+        "id": "124a87b5-d3aa-4a1b-a43e-20e909abc247",
+        "name": "Black Widow Gang",
+        "description": "Involved in illegal activities worldwide",
+        "created_at": "2023-09-21T00:35:32.825Z",
+        "updated_at": "2023-09-21T11:54:00.805Z",
+        "city_id": "c3320497-4b10-45c5-9521-d59eb0dca6bd"
+      },
+      {
+        "id": "9fddebdc-942d-40f7-a592-c136e4bc712b",
+        "name": "Crimson Cartel",
+        "description": "Feared by law enforcement agencies",
+        "created_at": "2023-09-21T09:57:12.581Z",
+        "updated_at": "2023-09-21T17:16:35.780Z",
+        "city_id": "8781b35e-3705-4011-b541-21489db81a76"
+      },
+      {
+        "id": "23ef469c-525a-4938-b824-b2569ecc4efa",
+        "name": "Shadow Syndicate",
+        "description": "Operates in the shadows",
+        "created_at": "2023-09-21T13:10:19.939Z",
+        "updated_at": "2023-09-21T17:25:58.334Z",
+        "city_id": "c3320497-4b10-45c5-9521-d59eb0dca6bd"
+      },
+      {
+        "id": "9d5cb274-8010-4e41-8a7c-715fb34f9336",
+        "name": "Rogue Empire",
+        "description": "Masterminds behind major heists",
+        "created_at": "2023-09-21T09:42:57.750Z",
+        "updated_at": "2023-09-21T05:00:43.753Z",
+        "city_id": "f406de3e-2990-436d-9f2f-5866e60f01ac"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "98346524-c0aa-4f06-9043-a6950ae3ba5b",
+        "email": "Reese38@roq.tech",
+        "firstName": "Orrin",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc2eebfa-f8f1-4d36-abc5-c337e7385f9a",
+        "email": "Adele.Feest77@roq.tech",
+        "firstName": "Jacinthe",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34118438",
+        "tenantId": null
+      },
+      {
+        "reference": "2f48ae47-57de-4a7b-81a9-73384676f41b",
+        "email": "Aliza_Christiansen18@roq.tech",
+        "firstName": "Dayna",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52698815",
+        "tenantId": null
+      },
+      {
+        "reference": "fd4b38ae-44fc-4461-a9a0-5d3c0059df99",
+        "email": "Arnold.Bradtke@roq.tech",
+        "firstName": "Carlo",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15137166",
+        "tenantId": null
+      },
+      {
+        "reference": "2fc829ba-8d23-4260-b059-16af324c36d9",
+        "email": "Judson.Terry90@roq.tech",
+        "firstName": "Colin",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/515.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "11a44f0c-afd9-474d-8070-363784cd53d3",
+        "name": "New York",
+        "history": "Rich cultural heritage",
+        "danger_level": 80442,
+        "internet_coverage": 50652,
+        "taxi_availability": 72406,
+        "hotel_count": 95502,
+        "created_at": "2023-09-21T07:55:50.116Z",
+        "updated_at": "2023-09-21T15:36:05.345Z"
+      },
+      {
+        "id": "bf02f441-9403-487c-9473-1a69e1a34696",
+        "name": "London",
+        "history": "Historical landmarks",
+        "danger_level": 36874,
+        "internet_coverage": 9623,
+        "taxi_availability": 19375,
+        "hotel_count": 88332,
+        "created_at": "2023-09-20T22:33:24.342Z",
+        "updated_at": "2023-09-21T05:05:18.910Z"
+      },
+      {
+        "id": "21fd0cae-a63d-4dd6-8213-6700e6fa2e35",
+        "name": "Tokyo",
+        "history": "Vibrant nightlife",
+        "danger_level": 84153,
+        "internet_coverage": 71822,
+        "taxi_availability": 73105,
+        "hotel_count": 55493,
+        "created_at": "2023-09-21T09:56:18.234Z",
+        "updated_at": "2023-09-21T16:31:47.684Z"
+      },
+      {
+        "id": "e16fb6ce-9c48-403f-b6ec-4ebfc3dceb86",
+        "name": "Paris",
+        "history": "Cosmopolitan atmosphere",
+        "danger_level": 53402,
+        "internet_coverage": 69590,
+        "taxi_availability": 19677,
+        "hotel_count": 32905,
+        "created_at": "2023-09-21T16:50:43.959Z",
+        "updated_at": "2023-09-21T13:53:51.066Z"
+      },
+      {
+        "id": "4a74feac-a314-4b61-944d-502c7311e593",
+        "name": "Sydney",
+        "history": "Beautiful architecture",
+        "danger_level": 48615,
+        "internet_coverage": 92372,
+        "taxi_availability": 20211,
+        "hotel_count": 98097,
+        "created_at": "2023-09-21T18:22:19.917Z",
+        "updated_at": "2023-09-21T16:12:47.429Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "faf0baed-db3a-4797-ad90-365aa7a1dfd8",
+        "name": "John Doe",
+        "role": "Manager",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T09:34:26.230Z",
+        "updated_at": "2023-09-21T14:34:11.569Z",
+        "city_id": "11a44f0c-afd9-474d-8070-363784cd53d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8faf676b-7255-439a-a5a3-1413e4fa763e",
+        "name": "Jane Smith",
+        "role": "Engineer",
+        "bio": "Creative problem solver",
+        "created_at": "2023-09-21T08:27:43.596Z",
+        "updated_at": "2023-09-21T10:55:38.687Z",
+        "city_id": "bf02f441-9403-487c-9473-1a69e1a34696",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d29faea1-7e6b-49cb-9c83-9bdd8754d1d9",
+        "name": "Michael Brown",
+        "role": "Designer",
+        "bio": "Expert in finance",
+        "created_at": "2023-09-21T11:26:36.628Z",
+        "updated_at": "2023-09-21T14:35:10.122Z",
+        "city_id": "bf02f441-9403-487c-9473-1a69e1a34696",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee216a15-9594-4c4d-b228-6d763fe33446",
+        "name": "Sarah Jones",
+        "role": "Analyst",
+        "bio": "Dedicated to community service",
+        "created_at": "2023-09-21T18:57:41.903Z",
+        "updated_at": "2023-09-21T05:32:10.695Z",
+        "city_id": "bf02f441-9403-487c-9473-1a69e1a34696",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82ba9577-96c2-4163-82e2-7c2fb594177d",
+        "name": "Robert Wilson",
+        "role": "Executive",
+        "bio": "Innovative thinker",
+        "created_at": "2023-09-21T15:40:34.696Z",
+        "updated_at": "2023-09-21T19:25:03.990Z",
+        "city_id": "bf02f441-9403-487c-9473-1a69e1a34696",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "93b5d21e-c3ec-45c8-922d-bdf74f7fddcc",
+        "name": "City Council",
+        "contact": "contact@example.com",
+        "created_at": "2023-09-20T23:22:54.370Z",
+        "updated_at": "2023-09-20T21:48:36.897Z",
+        "city_id": "bf02f441-9403-487c-9473-1a69e1a34696"
+      },
+      {
+        "id": "0dc21939-3a07-4b10-bb76-48520005d640",
+        "name": "Municipal Corporation",
+        "contact": "admin@example.com",
+        "created_at": "2023-09-21T03:50:47.445Z",
+        "updated_at": "2023-09-21T17:19:22.482Z",
+        "city_id": "21fd0cae-a63d-4dd6-8213-6700e6fa2e35"
+      },
+      {
+        "id": "81fadddb-985a-4821-a9f7-49af8852a80b",
+        "name": "County Government",
+        "contact": "info@example.com",
+        "created_at": "2023-09-21T05:37:32.810Z",
+        "updated_at": "2023-09-21T17:59:25.035Z",
+        "city_id": "e16fb6ce-9c48-403f-b6ec-4ebfc3dceb86"
+      },
+      {
+        "id": "8b9f6de1-9a8a-4a30-bd57-a588fa5892b7",
+        "name": "Township Authority",
+        "contact": "support@example.com",
+        "created_at": "2023-09-21T02:53:09.031Z",
+        "updated_at": "2023-09-20T22:17:31.328Z",
+        "city_id": "e16fb6ce-9c48-403f-b6ec-4ebfc3dceb86"
+      },
+      {
+        "id": "1736a7d2-2283-4ae1-bd70-6a1e1cd1d991",
+        "name": "Regional Board",
+        "contact": "enquiries@example.com",
+        "created_at": "2023-09-21T11:01:45.766Z",
+        "updated_at": "2023-09-21T08:10:57.880Z",
+        "city_id": "21fd0cae-a63d-4dd6-8213-6700e6fa2e35"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "b1c136da-1aca-4d37-8eeb-83e3ad07b11b",
+        "name": "The Syndicate",
+        "description": "Secretive criminal organization",
+        "created_at": "2023-09-20T22:05:06.744Z",
+        "updated_at": "2023-09-21T04:28:03.887Z",
+        "city_id": "11a44f0c-afd9-474d-8070-363784cd53d3"
+      },
+      {
+        "id": "91f76d79-3e5a-42aa-bab5-f2ada0398015",
+        "name": "Black Widow",
+        "description": "Masterminds of organized crime",
+        "created_at": "2023-09-20T20:52:30.929Z",
+        "updated_at": "2023-09-21T04:24:40.837Z",
+        "city_id": "bf02f441-9403-487c-9473-1a69e1a34696"
+      },
+      {
+        "id": "7cc6ea49-509b-4e09-9a72-4eedf88f44bb",
+        "name": "Shadow Corporation",
+        "description": "Infamous for their illegal activities",
+        "created_at": "2023-09-21T15:16:47.845Z",
+        "updated_at": "2023-09-21T00:02:11.827Z",
+        "city_id": "21fd0cae-a63d-4dd6-8213-6700e6fa2e35"
+      },
+      {
+        "id": "db68b798-c144-4b74-a8cc-319d2fbced13",
+        "name": "Crimson Alliance",
+        "description": "Global network of criminals",
+        "created_at": "2023-09-21T10:31:41.814Z",
+        "updated_at": "2023-09-21T13:51:58.269Z",
+        "city_id": "e16fb6ce-9c48-403f-b6ec-4ebfc3dceb86"
+      },
+      {
+        "id": "251d61ae-d0a1-48ce-b877-984902818848",
+        "name": "Nightfall Syndicate",
+        "description": "Operates in the shadows",
+        "created_at": "2023-09-21T07:22:34.514Z",
+        "updated_at": "2023-09-21T16:18:20.873Z",
+        "city_id": "11a44f0c-afd9-474d-8070-363784cd53d3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "586f1e4b-cb8d-4e13-bc11-f9bffbe8bdbf",
+        "email": "Donavon.Satterfield47@roq.tech",
+        "firstName": "Otto",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76d45021-980a-4abb-ba6c-5ec65751c054",
+        "email": "Scot.Senger54@roq.tech",
+        "firstName": "Johnathon",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/595.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "04c17645-6caa-4bc4-a405-f043d4ac0987",
+        "email": "Kamron_Effertz80@roq.tech",
+        "firstName": "Ali",
+        "lastName": "Hegmann-Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48879996",
+        "tenantId": null
+      },
+      {
+        "reference": "bbd0d2cc-ab0b-4362-9580-0b7675bf1d63",
+        "email": "Ryan_McDermott@roq.tech",
+        "firstName": "Theresia",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37044094",
+        "tenantId": null
+      },
+      {
+        "reference": "4db43ff5-72ec-4c50-912e-4d904854ca02",
+        "email": "Reed.Mills89@roq.tech",
+        "firstName": "Patience",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15952625",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "a7ee1a7c-1c18-41e3-ad29-c2eb594b83bf",
+        "name": "New York",
+        "history": "Founded in 1624",
+        "danger_level": 3312,
+        "internet_coverage": 62364,
+        "taxi_availability": 60363,
+        "hotel_count": 75985,
+        "created_at": "2023-09-21T04:12:59.161Z",
+        "updated_at": "2023-09-21T11:22:05.520Z"
+      },
+      {
+        "id": "63a884d2-4476-4858-90dc-63455d48e1a3",
+        "name": "London",
+        "history": "Known for its iconic landmarks",
+        "danger_level": 22811,
+        "internet_coverage": 466,
+        "taxi_availability": 13650,
+        "hotel_count": 32735,
+        "created_at": "2023-09-21T02:54:17.673Z",
+        "updated_at": "2023-09-21T12:43:45.098Z"
+      },
+      {
+        "id": "51869b8e-6adc-4ee5-8375-7f7e5f8a6e2a",
+        "name": "Paris",
+        "history": "Home to a diverse population",
+        "danger_level": 12709,
+        "internet_coverage": 78888,
+        "taxi_availability": 15478,
+        "hotel_count": 71708,
+        "created_at": "2023-09-21T15:48:29.604Z",
+        "updated_at": "2023-09-21T04:33:33.849Z"
+      },
+      {
+        "id": "52e4ac3e-6bf2-4db9-a7ec-b8b91052d5da",
+        "name": "Tokyo",
+        "history": "Hosted the Olympics in 2020",
+        "danger_level": 58887,
+        "internet_coverage": 73367,
+        "taxi_availability": 47844,
+        "hotel_count": 19551,
+        "created_at": "2023-09-21T11:33:51.079Z",
+        "updated_at": "2023-09-20T21:58:25.573Z"
+      },
+      {
+        "id": "c4b57916-66a2-460e-9aed-3e938e8b5c7d",
+        "name": "Sydney",
+        "history": "Famous for its cuisine",
+        "danger_level": 75088,
+        "internet_coverage": 37995,
+        "taxi_availability": 97569,
+        "hotel_count": 84015,
+        "created_at": "2023-09-21T03:12:22.664Z",
+        "updated_at": "2023-09-21T10:56:11.589Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "9a02b054-f95d-4372-af31-df3285cfb7a5",
+        "name": "John Smith",
+        "role": "Manager",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T01:55:35.182Z",
+        "updated_at": "2023-09-21T08:25:54.308Z",
+        "city_id": "52e4ac3e-6bf2-4db9-a7ec-b8b91052d5da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1040e553-62fa-4c03-95cb-dfb9b549de59",
+        "name": "Jane Doe",
+        "role": "Developer",
+        "bio": "Enjoys outdoor activities",
+        "created_at": "2023-09-21T08:14:03.331Z",
+        "updated_at": "2023-09-21T15:20:22.115Z",
+        "city_id": "52e4ac3e-6bf2-4db9-a7ec-b8b91052d5da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "579b958d-383b-4b9a-b5ef-05cd4e53d960",
+        "name": "Michael Brown",
+        "role": "Designer",
+        "bio": "Loves to travel",
+        "created_at": "2023-09-21T12:10:14.500Z",
+        "updated_at": "2023-09-21T06:08:57.522Z",
+        "city_id": "c4b57916-66a2-460e-9aed-3e938e8b5c7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3eee321-74d2-402d-960b-4f57726721fc",
+        "name": "Sarah Jones",
+        "role": "Analyst",
+        "bio": "Advocates for social justice",
+        "created_at": "2023-09-21T10:22:48.314Z",
+        "updated_at": "2023-09-21T04:29:14.977Z",
+        "city_id": "c4b57916-66a2-460e-9aed-3e938e8b5c7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5029ecc3-7144-417c-be66-bb04e18e078e",
+        "name": "Robert Wilson",
+        "role": "Salesperson",
+        "bio": "Dedicated to lifelong learning",
+        "created_at": "2023-09-21T18:19:23.564Z",
+        "updated_at": "2023-09-21T03:52:06.119Z",
+        "city_id": "c4b57916-66a2-460e-9aed-3e938e8b5c7d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "9f0f2d30-f661-4a67-9978-21135a60b78a",
+        "name": "City Council",
+        "contact": "contact@citycouncil.gov",
+        "created_at": "2023-09-21T04:29:45.246Z",
+        "updated_at": "2023-09-20T21:43:55.847Z",
+        "city_id": "51869b8e-6adc-4ee5-8375-7f7e5f8a6e2a"
+      },
+      {
+        "id": "94c5d092-504b-425f-919b-5243a75cbaed",
+        "name": "Municipal Government",
+        "contact": "info@municipalgov.org",
+        "created_at": "2023-09-21T09:09:02.176Z",
+        "updated_at": "2023-09-21T17:34:45.863Z",
+        "city_id": "a7ee1a7c-1c18-41e3-ad29-c2eb594b83bf"
+      },
+      {
+        "id": "73b23fd7-0451-4940-8022-5d1ecf13ee6d",
+        "name": "County Administration",
+        "contact": "admin@county.gov",
+        "created_at": "2023-09-20T21:49:15.983Z",
+        "updated_at": "2023-09-21T10:57:52.208Z",
+        "city_id": "52e4ac3e-6bf2-4db9-a7ec-b8b91052d5da"
+      },
+      {
+        "id": "500a5b81-1d0c-4dd7-8c3c-53e994322e31",
+        "name": "Town Board",
+        "contact": "townboard@town.gov",
+        "created_at": "2023-09-21T01:31:22.422Z",
+        "updated_at": "2023-09-21T06:16:45.653Z",
+        "city_id": "63a884d2-4476-4858-90dc-63455d48e1a3"
+      },
+      {
+        "id": "c6546cee-8da5-4dbc-b9f2-b04713ffd28e",
+        "name": "Village Committee",
+        "contact": "committee@village.org",
+        "created_at": "2023-09-21T08:42:00.664Z",
+        "updated_at": "2023-09-21T19:32:54.134Z",
+        "city_id": "c4b57916-66a2-460e-9aed-3e938e8b5c7d"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "1aaa2627-fee9-43f3-8fb5-9ff49c607dfe",
+        "name": "The Syndicate",
+        "description": "A notorious criminal organization",
+        "created_at": "2023-09-20T21:51:57.284Z",
+        "updated_at": "2023-09-21T15:49:05.327Z",
+        "city_id": "a7ee1a7c-1c18-41e3-ad29-c2eb594b83bf"
+      },
+      {
+        "id": "b378d4a7-276b-4cee-aaed-f54ea5cec296",
+        "name": "Black Widow Gang",
+        "description": "Engaged in illegal activities",
+        "created_at": "2023-09-20T20:09:50.943Z",
+        "updated_at": "2023-09-21T03:07:38.419Z",
+        "city_id": "c4b57916-66a2-460e-9aed-3e938e8b5c7d"
+      },
+      {
+        "id": "5610cc68-ea01-4f8f-8db8-4719bc63b4dd",
+        "name": "Shadow Cartel",
+        "description": "Operates in multiple countries",
+        "created_at": "2023-09-21T16:48:49.947Z",
+        "updated_at": "2023-09-21T14:36:09.049Z",
+        "city_id": "a7ee1a7c-1c18-41e3-ad29-c2eb594b83bf"
+      },
+      {
+        "id": "cf37193c-351c-451c-b879-ca8ad4160fe5",
+        "name": "Crimson Brotherhood",
+        "description": "Known for its ruthless tactics",
+        "created_at": "2023-09-21T01:15:17.720Z",
+        "updated_at": "2023-09-21T01:06:03.445Z",
+        "city_id": "52e4ac3e-6bf2-4db9-a7ec-b8b91052d5da"
+      },
+      {
+        "id": "1a61ae02-4bc1-4049-a4dc-5c9025a82681",
+        "name": "Nightfall Mafia",
+        "description": "Feared by law enforcement agencies",
+        "created_at": "2023-09-21T04:00:39.368Z",
+        "updated_at": "2023-09-21T17:35:19.845Z",
+        "city_id": "51869b8e-6adc-4ee5-8375-7f7e5f8a6e2a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2bf82218-4341-4bc3-a57c-67b5a098efa6",
+        "email": "Antwan_Farrell@roq.tech",
+        "firstName": "Citlalli",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/197.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e7137c3-7cae-4ff2-a63c-ed005ec5a8ec",
+        "email": "Jessyca_Flatley@roq.tech",
+        "firstName": "Rebekah",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20244445",
+        "tenantId": null
+      },
+      {
+        "reference": "50d1fffb-bf8e-4d24-8cd8-f2972463caa0",
+        "email": "Rory.Wintheiser@roq.tech",
+        "firstName": "Marion",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37a508ad-6ca3-4c93-9890-ac9e208f9ef5",
+        "email": "Cayla_Fahey31@roq.tech",
+        "firstName": "Dayna",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/951.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c698659c-c017-4009-a199-e2bb5be7e03a",
+        "email": "Adrian_Langworth@roq.tech",
+        "firstName": "Astrid",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/63.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "9a95f0bf-5a88-428c-acb0-e6aefd35e2a7",
+        "name": "New York",
+        "history": "Rich cultural heritage",
+        "danger_level": 94612,
+        "internet_coverage": 1290,
+        "taxi_availability": 29222,
+        "hotel_count": 6914,
+        "created_at": "2023-09-20T23:07:25.701Z",
+        "updated_at": "2023-09-20T21:23:05.295Z"
+      },
+      {
+        "id": "c77f16d4-15f0-406d-9d5d-faaf3f008b2b",
+        "name": "London",
+        "history": "Historical landmarks",
+        "danger_level": 88337,
+        "internet_coverage": 21729,
+        "taxi_availability": 39207,
+        "hotel_count": 9747,
+        "created_at": "2023-09-20T21:23:08.049Z",
+        "updated_at": "2023-09-21T08:53:00.611Z"
+      },
+      {
+        "id": "7e230203-5e47-484c-a836-5ca074f3ff65",
+        "name": "Tokyo",
+        "history": "Diverse population",
+        "danger_level": 21732,
+        "internet_coverage": 15603,
+        "taxi_availability": 76139,
+        "hotel_count": 53800,
+        "created_at": "2023-09-21T18:18:20.039Z",
+        "updated_at": "2023-09-21T10:34:55.244Z"
+      },
+      {
+        "id": "d3966216-099d-4c85-b75a-1eacb42e87b3",
+        "name": "Paris",
+        "history": "Thriving arts scene",
+        "danger_level": 54990,
+        "internet_coverage": 80325,
+        "taxi_availability": 20459,
+        "hotel_count": 58801,
+        "created_at": "2023-09-21T15:06:22.859Z",
+        "updated_at": "2023-09-21T04:56:14.043Z"
+      },
+      {
+        "id": "531a677c-2571-4d01-85c3-b2147f2ea466",
+        "name": "Sydney",
+        "history": "Cosmopolitan atmosphere",
+        "danger_level": 69782,
+        "internet_coverage": 79424,
+        "taxi_availability": 60329,
+        "hotel_count": 28718,
+        "created_at": "2023-09-21T08:36:33.183Z",
+        "updated_at": "2023-09-21T09:42:18.835Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "e51eea71-f181-4852-8757-120dd5079243",
+        "name": "John Smith",
+        "role": "Engineer",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T07:48:27.696Z",
+        "updated_at": "2023-09-21T01:57:13.268Z",
+        "city_id": "c77f16d4-15f0-406d-9d5d-faaf3f008b2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0da8fcf-f162-4d57-a7cc-b28f37663eac",
+        "name": "Jane Doe",
+        "role": "Designer",
+        "bio": "Creative problem solver",
+        "created_at": "2023-09-20T22:35:13.298Z",
+        "updated_at": "2023-09-21T15:06:06.528Z",
+        "city_id": "d3966216-099d-4c85-b75a-1eacb42e87b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfe7cf08-9d02-488b-ab52-3123fdc8c713",
+        "name": "Michael Brown",
+        "role": "Manager",
+        "bio": "Experienced leader",
+        "created_at": "2023-09-21T17:19:08.135Z",
+        "updated_at": "2023-09-21T16:59:25.069Z",
+        "city_id": "7e230203-5e47-484c-a836-5ca074f3ff65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e51f2a33-61fb-466c-85a1-e735ad9aadf9",
+        "name": "Sarah Jones",
+        "role": "Analyst",
+        "bio": "Data-driven decision maker",
+        "created_at": "2023-09-21T14:18:23.107Z",
+        "updated_at": "2023-09-21T08:55:16.939Z",
+        "city_id": "7e230203-5e47-484c-a836-5ca074f3ff65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d7f8bef-75d3-4383-9788-0ba95cf8c6da",
+        "name": "Robert Johnson",
+        "role": "Executive",
+        "bio": "Strategic thinker",
+        "created_at": "2023-09-21T10:20:47.240Z",
+        "updated_at": "2023-09-21T00:25:45.848Z",
+        "city_id": "7e230203-5e47-484c-a836-5ca074f3ff65",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "c1888f5b-5693-42a7-b5eb-3d83d65a969e",
+        "name": "City Council",
+        "contact": "contact@example.com",
+        "created_at": "2023-09-20T22:49:32.070Z",
+        "updated_at": "2023-09-20T21:08:38.530Z",
+        "city_id": "c77f16d4-15f0-406d-9d5d-faaf3f008b2b"
+      },
+      {
+        "id": "10a0e0c3-fa2a-457c-acaa-a1ea54bc9e07",
+        "name": "Municipal Government",
+        "contact": "info@example.com",
+        "created_at": "2023-09-21T02:56:15.495Z",
+        "updated_at": "2023-09-21T11:26:27.142Z",
+        "city_id": "7e230203-5e47-484c-a836-5ca074f3ff65"
+      },
+      {
+        "id": "9539131f-0136-49d3-a180-85b7b7ef9569",
+        "name": "Local Administration",
+        "contact": "admin@example.com",
+        "created_at": "2023-09-21T03:32:46.681Z",
+        "updated_at": "2023-09-21T11:46:58.028Z",
+        "city_id": "d3966216-099d-4c85-b75a-1eacb42e87b3"
+      },
+      {
+        "id": "63ebd680-e810-45ef-853e-a4abcf937b94",
+        "name": "Regional Authority",
+        "contact": "support@example.com",
+        "created_at": "2023-09-21T18:52:15.213Z",
+        "updated_at": "2023-09-21T17:34:36.323Z",
+        "city_id": "531a677c-2571-4d01-85c3-b2147f2ea466"
+      },
+      {
+        "id": "b0c0fdc6-1e87-4bdb-beb9-1c55b75400e2",
+        "name": "County Board",
+        "contact": "enquiries@example.com",
+        "created_at": "2023-09-21T04:21:26.735Z",
+        "updated_at": "2023-09-21T01:01:58.692Z",
+        "city_id": "c77f16d4-15f0-406d-9d5d-faaf3f008b2b"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "66ddf54d-0f92-4d03-95d3-11d1f295b07d",
+        "name": "The Syndicate",
+        "description": "Notorious criminal organization",
+        "created_at": "2023-09-21T08:22:18.461Z",
+        "updated_at": "2023-09-21T04:48:12.301Z",
+        "city_id": "9a95f0bf-5a88-428c-acb0-e6aefd35e2a7"
+      },
+      {
+        "id": "0fbe47ba-a403-4a6f-99bc-2b00a8639284",
+        "name": "Black Widow",
+        "description": "International smuggling network",
+        "created_at": "2023-09-21T12:12:46.389Z",
+        "updated_at": "2023-09-21T03:14:47.408Z",
+        "city_id": "d3966216-099d-4c85-b75a-1eacb42e87b3"
+      },
+      {
+        "id": "8071b24e-2505-4c4d-8205-51a5d799b661",
+        "name": "Shadow Alliance",
+        "description": "Organized crime syndicate",
+        "created_at": "2023-09-21T08:22:53.457Z",
+        "updated_at": "2023-09-20T23:05:32.142Z",
+        "city_id": "531a677c-2571-4d01-85c3-b2147f2ea466"
+      },
+      {
+        "id": "cbca39b5-c439-41b7-88d0-063598cc3a4a",
+        "name": "Crimson Mafia",
+        "description": "Underworld power players",
+        "created_at": "2023-09-21T06:07:40.419Z",
+        "updated_at": "2023-09-21T02:22:40.322Z",
+        "city_id": "7e230203-5e47-484c-a836-5ca074f3ff65"
+      },
+      {
+        "id": "9223f6f3-75e3-4b8e-9bd0-b9b345a3caa5",
+        "name": "Dark Empire",
+        "description": "Illicit activities across borders",
+        "created_at": "2023-09-21T07:27:08.710Z",
+        "updated_at": "2023-09-21T05:29:16.339Z",
+        "city_id": "7e230203-5e47-484c-a836-5ca074f3ff65"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3c3f62b-a0ed-4554-9b0b-b7bc84d16796",
+        "email": "Claudia93@roq.tech",
+        "firstName": "Braden",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/855.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ee397ab-7e6d-486d-baac-f29ffc59822a",
+        "email": "Cade25@roq.tech",
+        "firstName": "Minnie",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36765664",
+        "tenantId": null
+      },
+      {
+        "reference": "213b7734-b4d4-4730-843b-c42a2df3e20d",
+        "email": "Ned3@roq.tech",
+        "firstName": "Carmel",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66526006",
+        "tenantId": null
+      },
+      {
+        "reference": "16916664-c05e-408b-8a29-08713a039a24",
+        "email": "Adrian_Gleason@roq.tech",
+        "firstName": "Gwen",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90254610",
+        "tenantId": null
+      },
+      {
+        "reference": "d7f688cb-ce43-42dd-96b0-ab62901f1f56",
+        "email": "Breanna_Bartoletti@roq.tech",
+        "firstName": "Ardella",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/856.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "06772556-7282-434a-9ed2-71007ccb3491",
+        "name": "New York",
+        "history": "A vibrant metropolis with a rich cultural heritage",
+        "danger_level": 68065,
+        "internet_coverage": 1365,
+        "taxi_availability": 33772,
+        "hotel_count": 54852,
+        "created_at": "2023-09-21T12:02:18.184Z",
+        "updated_at": "2023-09-21T03:34:38.573Z"
+      },
+      {
+        "id": "49d08ee6-9914-4c37-859b-bbc721ddde3b",
+        "name": "London",
+        "history": "A global financial hub",
+        "danger_level": 82673,
+        "internet_coverage": 13793,
+        "taxi_availability": 70071,
+        "hotel_count": 98624,
+        "created_at": "2023-09-21T19:07:47.844Z",
+        "updated_at": "2023-09-21T00:54:35.272Z"
+      },
+      {
+        "id": "200099c7-f5e9-454e-8a18-dbc83cfea27d",
+        "name": "Tokyo",
+        "history": "Known for its ancient temples and traditional arts",
+        "danger_level": 13726,
+        "internet_coverage": 59741,
+        "taxi_availability": 75162,
+        "hotel_count": 29824,
+        "created_at": "2023-09-21T00:20:21.509Z",
+        "updated_at": "2023-09-21T18:57:00.517Z"
+      },
+      {
+        "id": "3a05f172-1916-4aeb-985a-edc36a2aa473",
+        "name": "Paris",
+        "history": "Famous for its iconic landmarks and fashion",
+        "danger_level": 50392,
+        "internet_coverage": 43169,
+        "taxi_availability": 58203,
+        "hotel_count": 83759,
+        "created_at": "2023-09-20T22:56:20.449Z",
+        "updated_at": "2023-09-21T04:33:37.803Z"
+      },
+      {
+        "id": "3cb09b12-0c5f-4978-b446-7350c00a43ab",
+        "name": "Sydney",
+        "history": "A bustling city with stunning beaches and a diverse food scene",
+        "danger_level": 19876,
+        "internet_coverage": 71714,
+        "taxi_availability": 57234,
+        "hotel_count": 15660,
+        "created_at": "2023-09-21T04:33:19.679Z",
+        "updated_at": "2023-09-21T00:35:05.463Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "4fb7f362-9a8d-43ed-b363-363c32cea9e7",
+        "name": "John Smith",
+        "role": "CEO",
+        "bio": "Passionate about innovation and technology",
+        "created_at": "2023-09-21T03:37:49.677Z",
+        "updated_at": "2023-09-21T01:43:23.230Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "241f956a-965f-489e-9fce-a96cf4a7432d",
+        "name": "Jane Doe",
+        "role": "Manager",
+        "bio": "Dedicated to creating user-friendly experiences",
+        "created_at": "2023-09-21T11:22:47.246Z",
+        "updated_at": "2023-09-21T11:33:50.207Z",
+        "city_id": "06772556-7282-434a-9ed2-71007ccb3491",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "357372e8-e4b5-46f0-b5e7-34462abbf894",
+        "name": "Michael Brown",
+        "role": "Developer",
+        "bio": "Experienced in project management and team collaboration",
+        "created_at": "2023-09-20T20:03:48.496Z",
+        "updated_at": "2023-09-21T03:21:20.769Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9092fb18-46ce-48aa-94f1-2e575f4c9439",
+        "name": "Sarah Jones",
+        "role": "Designer",
+        "bio": "Creative problem solver with a keen eye for detail",
+        "created_at": "2023-09-21T12:58:40.103Z",
+        "updated_at": "2023-09-21T15:19:21.893Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39b85090-e15f-41d9-9e85-532b5f6adef3",
+        "name": "Robert Wilson",
+        "role": "Sales Representative",
+        "bio": "Excellent communication and interpersonal skills",
+        "created_at": "2023-09-21T02:50:34.730Z",
+        "updated_at": "2023-09-21T09:54:30.975Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "10dfb22f-7c05-492f-8aa2-24001264acc0",
+        "name": "City Council",
+        "contact": "contact@citycouncil.gov",
+        "created_at": "2023-09-21T07:39:21.458Z",
+        "updated_at": "2023-09-21T17:24:11.150Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab"
+      },
+      {
+        "id": "8ce085a3-5cab-41ab-bacb-55005384591f",
+        "name": "Municipal Corporation",
+        "contact": "info@municipalcorp.org",
+        "created_at": "2023-09-21T09:55:38.886Z",
+        "updated_at": "2023-09-21T02:03:33.825Z",
+        "city_id": "3a05f172-1916-4aeb-985a-edc36a2aa473"
+      },
+      {
+        "id": "1ed6cfbe-9462-4875-ad21-327e3bd87754",
+        "name": "County Administration",
+        "contact": "admin@county.gov",
+        "created_at": "2023-09-21T03:21:44.535Z",
+        "updated_at": "2023-09-21T00:57:10.525Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab"
+      },
+      {
+        "id": "cf4bba76-0b31-48a7-970c-228eb91858b9",
+        "name": "Regional Government",
+        "contact": "govt@region.gov",
+        "created_at": "2023-09-21T16:18:32.091Z",
+        "updated_at": "2023-09-21T06:02:10.027Z",
+        "city_id": "3cb09b12-0c5f-4978-b446-7350c00a43ab"
+      },
+      {
+        "id": "d144327b-30f0-481f-a88a-4a84d6b00fce",
+        "name": "Township Authority",
+        "contact": "townshipauthority@gmail.com",
+        "created_at": "2023-09-21T00:20:58.197Z",
+        "updated_at": "2023-09-21T16:02:37.553Z",
+        "city_id": "49d08ee6-9914-4c37-859b-bbc721ddde3b"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "76c51952-52eb-440b-9b1a-7b28d6663e20",
+        "name": "The Syndicate",
+        "description": "A notorious criminal organization involved in organized crime",
+        "created_at": "2023-09-21T06:16:46.387Z",
+        "updated_at": "2023-09-21T16:46:19.400Z",
+        "city_id": "3a05f172-1916-4aeb-985a-edc36a2aa473"
+      },
+      {
+        "id": "c7f52507-b499-4f38-808b-2de6c255ae4e",
+        "name": "Black Widow",
+        "description": "A secretive group specializing in cybercrime and espionage",
+        "created_at": "2023-09-21T00:43:57.448Z",
+        "updated_at": "2023-09-21T12:36:01.399Z",
+        "city_id": "49d08ee6-9914-4c37-859b-bbc721ddde3b"
+      },
+      {
+        "id": "3e365df4-9d5c-4a3c-8889-cfe6e2ebd069",
+        "name": "Shadow Legion",
+        "description": "An underground syndicate known for drug trafficking and money laundering",
+        "created_at": "2023-09-21T11:12:46.891Z",
+        "updated_at": "2023-09-21T06:40:16.331Z",
+        "city_id": "06772556-7282-434a-9ed2-71007ccb3491"
+      },
+      {
+        "id": "b5c9e9f7-49c8-481d-a255-adc6f260b0bd",
+        "name": "Crimson Brotherhood",
+        "description": "A powerful criminal network with global reach",
+        "created_at": "2023-09-21T14:34:28.278Z",
+        "updated_at": "2023-09-21T04:03:46.959Z",
+        "city_id": "06772556-7282-434a-9ed2-71007ccb3491"
+      },
+      {
+        "id": "518e9c84-cc6a-4d9a-b28e-30421489d08b",
+        "name": "Silent Serpents",
+        "description": "A ruthless gang involved in arms smuggling and human trafficking",
+        "created_at": "2023-09-21T00:03:11.524Z",
+        "updated_at": "2023-09-20T21:35:26.656Z",
+        "city_id": "3a05f172-1916-4aeb-985a-edc36a2aa473"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a2231bfb-5c31-4dcb-996a-99906cc0acfe",
+        "email": "Stacey.Corkery@roq.tech",
+        "firstName": "Delores",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "882554da-6577-4fe4-b715-25a1d740574b",
+        "email": "Rubye_Grimes@roq.tech",
+        "firstName": "Vernon",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2aebd57-a39e-4916-bad2-39953545e9c0",
+        "email": "Annetta58@roq.tech",
+        "firstName": "Jamey",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/445.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb013354-4640-4f12-91a9-47d502e07596",
+        "email": "Dedric.Erdman-Howell47@roq.tech",
+        "firstName": "Bernita",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/15.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8220d646-c36e-4832-bcf6-39021ab3f94e",
+        "email": "Rowena.Brakus69@roq.tech",
+        "firstName": "Berniece",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64030714",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "cac7105a-092c-4a36-978e-c9418070dd26",
+        "name": "New York",
+        "history": "Founded in 1624",
+        "danger_level": 27694,
+        "internet_coverage": 46804,
+        "taxi_availability": 21272,
+        "hotel_count": 96830,
+        "created_at": "2023-09-21T19:30:13.791Z",
+        "updated_at": "2023-09-21T02:15:37.308Z"
+      },
+      {
+        "id": "b15b7994-7d71-4adc-accd-18ee7c46d55e",
+        "name": "London",
+        "history": "Historic landmarks and museums",
+        "danger_level": 39847,
+        "internet_coverage": 40590,
+        "taxi_availability": 97744,
+        "hotel_count": 73889,
+        "created_at": "2023-09-21T10:24:39.347Z",
+        "updated_at": "2023-09-21T04:50:26.766Z"
+      },
+      {
+        "id": "11b81863-cb43-408c-bf4d-e67bbe06304a",
+        "name": "Paris",
+        "history": "Cultural melting pot",
+        "danger_level": 41997,
+        "internet_coverage": 50134,
+        "taxi_availability": 91888,
+        "hotel_count": 89933,
+        "created_at": "2023-09-21T06:27:16.964Z",
+        "updated_at": "2023-09-20T22:17:51.253Z"
+      },
+      {
+        "id": "c8e7f459-f284-4f26-84d8-8e6b1618928e",
+        "name": "Tokyo",
+        "history": "Financial hub",
+        "danger_level": 72998,
+        "internet_coverage": 59681,
+        "taxi_availability": 66485,
+        "hotel_count": 50605,
+        "created_at": "2023-09-21T06:13:52.916Z",
+        "updated_at": "2023-09-21T14:26:09.342Z"
+      },
+      {
+        "id": "ec4afb59-da46-4c3a-b7b6-76a2b1eff7fd",
+        "name": "Sydney",
+        "history": "World-renowned cuisine",
+        "danger_level": 43677,
+        "internet_coverage": 28113,
+        "taxi_availability": 74528,
+        "hotel_count": 23636,
+        "created_at": "2023-09-20T21:58:43.595Z",
+        "updated_at": "2023-09-21T06:17:26.161Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "ecf7c892-3f16-4752-a8bc-078ddadcf7ee",
+        "name": "John Smith",
+        "role": "CEO",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T15:47:55.257Z",
+        "updated_at": "2023-09-21T08:47:40.076Z",
+        "city_id": "cac7105a-092c-4a36-978e-c9418070dd26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8b9ca94-85ea-45a4-9b7e-c1e7bd63aa6d",
+        "name": "Jane Doe",
+        "role": "Manager",
+        "bio": "Creative problem solver",
+        "created_at": "2023-09-21T04:39:44.944Z",
+        "updated_at": "2023-09-21T17:20:48.003Z",
+        "city_id": "c8e7f459-f284-4f26-84d8-8e6b1618928e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c0feeda-a7b3-4b6e-9df9-f509a50e4484",
+        "name": "Michael Brown",
+        "role": "Developer",
+        "bio": "Experienced professional",
+        "created_at": "2023-09-21T02:45:59.016Z",
+        "updated_at": "2023-09-21T05:35:08.143Z",
+        "city_id": "b15b7994-7d71-4adc-accd-18ee7c46d55e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "958a566e-3bdf-43bf-a1e9-57c73ee589d5",
+        "name": "Sarah Jones",
+        "role": "Designer",
+        "bio": "Team player",
+        "created_at": "2023-09-21T05:10:38.125Z",
+        "updated_at": "2023-09-20T21:38:50.854Z",
+        "city_id": "11b81863-cb43-408c-bf4d-e67bbe06304a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12847268-bf65-40ed-b4af-9b5bbe464ae1",
+        "name": "David Wilson",
+        "role": "Marketing Specialist",
+        "bio": "Results-oriented",
+        "created_at": "2023-09-21T18:37:40.831Z",
+        "updated_at": "2023-09-20T23:52:32.185Z",
+        "city_id": "c8e7f459-f284-4f26-84d8-8e6b1618928e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "0650a425-4b3d-4449-97cc-4f104559668e",
+        "name": "City Council",
+        "contact": "contact@example.com",
+        "created_at": "2023-09-21T10:53:27.917Z",
+        "updated_at": "2023-09-21T01:53:38.861Z",
+        "city_id": "ec4afb59-da46-4c3a-b7b6-76a2b1eff7fd"
+      },
+      {
+        "id": "9c83a7b1-8146-497f-9ce5-e23af56f733f",
+        "name": "Municipal Corporation",
+        "contact": "admin@example.com",
+        "created_at": "2023-09-21T17:54:24.986Z",
+        "updated_at": "2023-09-21T02:14:04.901Z",
+        "city_id": "cac7105a-092c-4a36-978e-c9418070dd26"
+      },
+      {
+        "id": "ae3076ed-a213-45ac-8f4d-f35e26598c7e",
+        "name": "County Government",
+        "contact": "info@example.com",
+        "created_at": "2023-09-21T00:05:54.570Z",
+        "updated_at": "2023-09-21T09:49:32.349Z",
+        "city_id": "cac7105a-092c-4a36-978e-c9418070dd26"
+      },
+      {
+        "id": "204e2fc6-19be-416a-9f4b-2e4edff20e35",
+        "name": "Township Authority",
+        "contact": "support@example.com",
+        "created_at": "2023-09-21T15:27:48.114Z",
+        "updated_at": "2023-09-21T01:33:11.619Z",
+        "city_id": "cac7105a-092c-4a36-978e-c9418070dd26"
+      },
+      {
+        "id": "67d9faf2-3353-4e8f-96a9-158c0cf51e02",
+        "name": "Village Board",
+        "contact": "feedback@example.com",
+        "created_at": "2023-09-21T06:23:16.999Z",
+        "updated_at": "2023-09-21T15:14:41.483Z",
+        "city_id": "b15b7994-7d71-4adc-accd-18ee7c46d55e"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "e0ae562f-ff97-41b3-a65f-afd2867de8fb",
+        "name": "Black Diamond Syndicate",
+        "description": "International criminal network",
+        "created_at": "2023-09-20T21:21:14.718Z",
+        "updated_at": "2023-09-20T20:00:26.261Z",
+        "city_id": "b15b7994-7d71-4adc-accd-18ee7c46d55e"
+      },
+      {
+        "id": "638fcfb3-2fd0-4f9c-ac87-56008f10c9f7",
+        "name": "Crimson Shadows",
+        "description": "Organized crime group",
+        "created_at": "2023-09-21T17:49:23.653Z",
+        "updated_at": "2023-09-21T13:17:05.085Z",
+        "city_id": "c8e7f459-f284-4f26-84d8-8e6b1618928e"
+      },
+      {
+        "id": "bac24954-c261-4d32-bbfa-aee390c3080c",
+        "name": "Midnight Mafia",
+        "description": "Underworld syndicate",
+        "created_at": "2023-09-21T03:17:32.679Z",
+        "updated_at": "2023-09-21T13:34:43.670Z",
+        "city_id": "11b81863-cb43-408c-bf4d-e67bbe06304a"
+      },
+      {
+        "id": "59a7ed07-fa60-44f3-ac38-90ac63517dc5",
+        "name": "Silent Serpents",
+        "description": "Notorious gang",
+        "created_at": "2023-09-20T22:33:25.303Z",
+        "updated_at": "2023-09-21T04:18:42.791Z",
+        "city_id": "ec4afb59-da46-4c3a-b7b6-76a2b1eff7fd"
+      },
+      {
+        "id": "71dfc978-b233-46db-9f61-56fe1e914eb3",
+        "name": "Shadow Cartel",
+        "description": "Illegal activities and smuggling",
+        "created_at": "2023-09-20T23:46:03.828Z",
+        "updated_at": "2023-09-21T11:05:50.153Z",
+        "city_id": "b15b7994-7d71-4adc-accd-18ee7c46d55e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d7a008f-9316-4f9a-a31b-58d8e11e774a",
+        "email": "Nigel_Powlowski@roq.tech",
+        "firstName": "Joannie",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71548289",
+        "tenantId": null
+      },
+      {
+        "reference": "3e915944-8750-429c-a825-11f82e7322fd",
+        "email": "Milo.Wolf@roq.tech",
+        "firstName": "Misty",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16034056",
+        "tenantId": null
+      },
+      {
+        "reference": "8c4bca7b-6e11-45da-ab1e-199f57be4c1f",
+        "email": "Forrest37@roq.tech",
+        "firstName": "Robyn",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/602.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aac04e08-ce04-4b4d-a22a-b968430d19d5",
+        "email": "Jarod_Gerlach@roq.tech",
+        "firstName": "Mia",
+        "lastName": "Rogahn-Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0404d36-05ef-43d3-a744-928f98c8bae1",
+        "email": "Sylvia_Parisian@roq.tech",
+        "firstName": "Alivia",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61660830",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "6204810c-be62-4f65-90f6-96c5d23c2385",
+        "name": "New York",
+        "history": "Founded in 1624",
+        "danger_level": 97805,
+        "internet_coverage": 5797,
+        "taxi_availability": 80242,
+        "hotel_count": 88478,
+        "created_at": "2023-09-21T08:16:17.006Z",
+        "updated_at": "2023-09-21T07:14:55.710Z"
+      },
+      {
+        "id": "1ce46c0b-cd2a-40e9-aeea-f03c076d3d1a",
+        "name": "London",
+        "history": "Known for its iconic landmarks",
+        "danger_level": 90461,
+        "internet_coverage": 50695,
+        "taxi_availability": 66682,
+        "hotel_count": 51290,
+        "created_at": "2023-09-21T15:58:34.877Z",
+        "updated_at": "2023-09-21T19:29:55.198Z"
+      },
+      {
+        "id": "c2af1203-8bd8-4917-9567-abdad9eff475",
+        "name": "Tokyo",
+        "history": "Hosted the Olympic Games in 2000",
+        "danger_level": 67772,
+        "internet_coverage": 38185,
+        "taxi_availability": 85529,
+        "hotel_count": 83769,
+        "created_at": "2023-09-21T10:42:10.036Z",
+        "updated_at": "2023-09-21T01:13:40.499Z"
+      },
+      {
+        "id": "c5c81b27-de7b-420f-be38-d8acee95f36c",
+        "name": "Paris",
+        "history": "Famous for its cuisine",
+        "danger_level": 14124,
+        "internet_coverage": 4992,
+        "taxi_availability": 98352,
+        "hotel_count": 68685,
+        "created_at": "2023-09-21T14:02:32.267Z",
+        "updated_at": "2023-09-21T14:46:08.666Z"
+      },
+      {
+        "id": "4283d5b5-a1ff-424e-a9fc-0a77828f81cd",
+        "name": "Sydney",
+        "history": "Home to many cultural institutions",
+        "danger_level": 72967,
+        "internet_coverage": 85421,
+        "taxi_availability": 18088,
+        "hotel_count": 64583,
+        "created_at": "2023-09-21T02:53:10.419Z",
+        "updated_at": "2023-09-21T19:23:22.248Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "0757732e-98e9-4a08-915e-98012004fb75",
+        "name": "Robert",
+        "role": "Engineer",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T03:34:04.812Z",
+        "updated_at": "2023-09-21T14:41:24.051Z",
+        "city_id": "1ce46c0b-cd2a-40e9-aeea-f03c076d3d1a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "413bc293-61fb-4da6-aec6-5296330b6908",
+        "name": "Emily",
+        "role": "Designer",
+        "bio": "Loves traveling and photography",
+        "created_at": "2023-09-21T01:01:14.284Z",
+        "updated_at": "2023-09-21T06:03:41.004Z",
+        "city_id": "c2af1203-8bd8-4917-9567-abdad9eff475",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0244633-36eb-4400-9603-9c15ea568423",
+        "name": "Daniel",
+        "role": "Manager",
+        "bio": "Enjoys playing musical instruments",
+        "created_at": "2023-09-21T05:45:24.805Z",
+        "updated_at": "2023-09-21T02:14:01.374Z",
+        "city_id": "c2af1203-8bd8-4917-9567-abdad9eff475",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b71514a2-8163-43f7-ae99-db65d5f44dbf",
+        "name": "Olivia",
+        "role": "Teacher",
+        "bio": "Advocates for environmental sustainability",
+        "created_at": "2023-09-21T19:34:36.136Z",
+        "updated_at": "2023-09-21T18:16:13.348Z",
+        "city_id": "4283d5b5-a1ff-424e-a9fc-0a77828f81cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18cd6c47-1fd1-4f6b-8ded-91bf4c1d8dd4",
+        "name": "William",
+        "role": "Doctor",
+        "bio": "Dedicated to helping others",
+        "created_at": "2023-09-21T00:18:58.984Z",
+        "updated_at": "2023-09-21T15:32:38.712Z",
+        "city_id": "c5c81b27-de7b-420f-be38-d8acee95f36c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "f64e7544-08e3-475e-8c13-a6ec47f84736",
+        "name": "City Council",
+        "contact": "contact@example.com",
+        "created_at": "2023-09-21T06:57:21.879Z",
+        "updated_at": "2023-09-21T12:39:56.357Z",
+        "city_id": "6204810c-be62-4f65-90f6-96c5d23c2385"
+      },
+      {
+        "id": "f576d0f0-6804-47a4-b3f5-8f4ea29b96d2",
+        "name": "Municipal Government",
+        "contact": "admin@localauthority.org",
+        "created_at": "2023-09-21T03:33:29.259Z",
+        "updated_at": "2023-09-21T10:05:05.053Z",
+        "city_id": "c5c81b27-de7b-420f-be38-d8acee95f36c"
+      },
+      {
+        "id": "c792c2a6-f753-4704-b8ce-4d36476e86fd",
+        "name": "County Administration",
+        "contact": "info@localgovt.gov",
+        "created_at": "2023-09-21T18:10:37.948Z",
+        "updated_at": "2023-09-21T09:43:49.892Z",
+        "city_id": "4283d5b5-a1ff-424e-a9fc-0a77828f81cd"
+      },
+      {
+        "id": "ababf799-5858-4320-bd25-de3787fbebaa",
+        "name": "Regional Authority",
+        "contact": "support@townboard.com",
+        "created_at": "2023-09-21T15:33:42.458Z",
+        "updated_at": "2023-09-20T22:13:26.767Z",
+        "city_id": "4283d5b5-a1ff-424e-a9fc-0a77828f81cd"
+      },
+      {
+        "id": "54f5f986-fb6e-4f28-9859-ac659f18dc31",
+        "name": "Town Board",
+        "contact": "feedback@countyadmin.gov",
+        "created_at": "2023-09-21T18:49:24.802Z",
+        "updated_at": "2023-09-20T22:37:02.543Z",
+        "city_id": "1ce46c0b-cd2a-40e9-aeea-f03c076d3d1a"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "9d6cf3a1-6cd5-4940-bec8-2e21c41b7e60",
+        "name": "The Syndicate",
+        "description": "Notorious criminal organization",
+        "created_at": "2023-09-21T19:25:38.431Z",
+        "updated_at": "2023-09-21T14:41:12.133Z",
+        "city_id": "4283d5b5-a1ff-424e-a9fc-0a77828f81cd"
+      },
+      {
+        "id": "dc1877fd-4ea2-4f12-b0fb-78b9b990ba09",
+        "name": "Black Widow",
+        "description": "Operates globally",
+        "created_at": "2023-09-20T23:17:17.236Z",
+        "updated_at": "2023-09-21T05:56:33.248Z",
+        "city_id": "1ce46c0b-cd2a-40e9-aeea-f03c076d3d1a"
+      },
+      {
+        "id": "95f67a0e-e84f-4aa5-b7e2-726ab85af146",
+        "name": "Shadow Cartel",
+        "description": "Involved in smuggling and extortion",
+        "created_at": "2023-09-21T12:27:40.615Z",
+        "updated_at": "2023-09-20T23:45:52.372Z",
+        "city_id": "6204810c-be62-4f65-90f6-96c5d23c2385"
+      },
+      {
+        "id": "21487e46-2bf3-47a3-93a7-e08be1800773",
+        "name": "Crimson Empire",
+        "description": "Known for cybercrime activities",
+        "created_at": "2023-09-21T13:30:37.288Z",
+        "updated_at": "2023-09-21T14:25:54.118Z",
+        "city_id": "6204810c-be62-4f65-90f6-96c5d23c2385"
+      },
+      {
+        "id": "a0de26d4-e9a1-4ba7-869a-3b834834c48f",
+        "name": "Nightfall Syndicate",
+        "description": "Engaged in drug trafficking",
+        "created_at": "2023-09-21T07:31:34.315Z",
+        "updated_at": "2023-09-21T00:37:45.954Z",
+        "city_id": "c2af1203-8bd8-4917-9567-abdad9eff475"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7abebe8c-bdf2-462e-b886-d87d4cf3222a",
+        "email": "Mark_MacGyver@roq.tech",
+        "firstName": "Kaitlyn",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d233d406-cf02-45eb-adf2-d53d3e9dadb4",
+        "email": "Braden_Hand@roq.tech",
+        "firstName": "Patience",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27082741",
+        "tenantId": null
+      },
+      {
+        "reference": "2bc5f717-6dc0-4f80-9987-3d25c29f8ae9",
+        "email": "Enola15@roq.tech",
+        "firstName": "Jadyn",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63051555",
+        "tenantId": null
+      },
+      {
+        "reference": "3a0e6772-c319-49bf-b3fe-792993fb4321",
+        "email": "Olen90@roq.tech",
+        "firstName": "Vernon",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22272378",
+        "tenantId": null
+      },
+      {
+        "reference": "0e1b44d0-966e-40ff-bbd9-9c05bab82b4e",
+        "email": "Clement2@roq.tech",
+        "firstName": "Alfred",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3662950",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "2491dd2b-13d5-4927-a88d-7abc1032259e",
+        "name": "New York",
+        "history": "Historic city with modern skyscrapers",
+        "danger_level": 15203,
+        "internet_coverage": 3348,
+        "taxi_availability": 89613,
+        "hotel_count": 21531,
+        "created_at": "2023-09-21T09:37:21.497Z",
+        "updated_at": "2023-09-21T12:23:43.582Z"
+      },
+      {
+        "id": "4aa7b2e7-429a-4189-8114-4fefd765920f",
+        "name": "London",
+        "history": "Cultural hub with iconic landmarks",
+        "danger_level": 54259,
+        "internet_coverage": 48960,
+        "taxi_availability": 41869,
+        "hotel_count": 78064,
+        "created_at": "2023-09-21T15:43:43.595Z",
+        "updated_at": "2023-09-21T08:18:28.817Z"
+      },
+      {
+        "id": "a417f131-937d-4ef4-a506-aa06e9ad6566",
+        "name": "Tokyo",
+        "history": "Cosmopolitan city with rich heritage",
+        "danger_level": 29688,
+        "internet_coverage": 24307,
+        "taxi_availability": 23535,
+        "hotel_count": 40149,
+        "created_at": "2023-09-21T10:17:29.887Z",
+        "updated_at": "2023-09-21T05:31:36.194Z"
+      },
+      {
+        "id": "b6a0645d-5529-47de-a2fe-da8971edca18",
+        "name": "Paris",
+        "history": "Vibrant city known for its cuisine",
+        "danger_level": 85409,
+        "internet_coverage": 50932,
+        "taxi_availability": 236,
+        "hotel_count": 39808,
+        "created_at": "2023-09-21T07:46:05.715Z",
+        "updated_at": "2023-09-21T18:52:33.806Z"
+      },
+      {
+        "id": "89028db5-7b70-4755-8361-bc67d90819ac",
+        "name": "Sydney",
+        "history": "Beautiful city surrounded by natural landscapes",
+        "danger_level": 17717,
+        "internet_coverage": 93758,
+        "taxi_availability": 29867,
+        "hotel_count": 48134,
+        "created_at": "2023-09-21T04:43:58.307Z",
+        "updated_at": "2023-09-20T22:22:20.780Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "ff77bb2c-c08f-4679-9f94-f08dc24698c8",
+        "name": "John Doe",
+        "role": "CEO",
+        "bio": "Passionate about technology and innovation",
+        "created_at": "2023-09-20T23:43:30.113Z",
+        "updated_at": "2023-09-21T04:52:53.481Z",
+        "city_id": "2491dd2b-13d5-4927-a88d-7abc1032259e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06dc900e-8ce0-4071-9c78-49d5f33eb2e2",
+        "name": "Jane Smith",
+        "role": "Manager",
+        "bio": "Experienced in project management",
+        "created_at": "2023-09-21T13:08:21.778Z",
+        "updated_at": "2023-09-21T10:59:07.109Z",
+        "city_id": "b6a0645d-5529-47de-a2fe-da8971edca18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b48bc2e-49f9-480d-a29d-65fbb9f987eb",
+        "name": "Michael Johnson",
+        "role": "Engineer",
+        "bio": "Creative problem solver",
+        "created_at": "2023-09-21T13:13:00.975Z",
+        "updated_at": "2023-09-20T19:37:09.798Z",
+        "city_id": "a417f131-937d-4ef4-a506-aa06e9ad6566",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "505d790a-825e-45c6-ae11-7879ca75082e",
+        "name": "Emily Brown",
+        "role": "Designer",
+        "bio": "Expert in customer relations",
+        "created_at": "2023-09-21T01:41:17.668Z",
+        "updated_at": "2023-09-20T20:42:42.977Z",
+        "city_id": "2491dd2b-13d5-4927-a88d-7abc1032259e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7021ad51-0717-4c16-90a1-b1462ed02807",
+        "name": "David Jones",
+        "role": "Sales Representative",
+        "bio": "Dedicated to delivering exceptional results",
+        "created_at": "2023-09-21T02:39:02.809Z",
+        "updated_at": "2023-09-21T07:24:09.449Z",
+        "city_id": "2491dd2b-13d5-4927-a88d-7abc1032259e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "fe8f04cf-cb1f-4da5-87a7-a01f190b220f",
+        "name": "City Council",
+        "contact": "contact@citycouncil.com",
+        "created_at": "2023-09-20T22:03:12.633Z",
+        "updated_at": "2023-09-21T18:08:25.521Z",
+        "city_id": "2491dd2b-13d5-4927-a88d-7abc1032259e"
+      },
+      {
+        "id": "9b43a91e-386c-4ff2-b60a-82e7cdae6623",
+        "name": "Municipal Corporation",
+        "contact": "info@municipalcorp.com",
+        "created_at": "2023-09-21T14:51:59.910Z",
+        "updated_at": "2023-09-21T17:46:30.786Z",
+        "city_id": "4aa7b2e7-429a-4189-8114-4fefd765920f"
+      },
+      {
+        "id": "55144aec-41bd-4aaf-ad01-390441ad2835",
+        "name": "County Government",
+        "contact": "govt@county.gov",
+        "created_at": "2023-09-20T21:55:47.500Z",
+        "updated_at": "2023-09-20T22:21:09.497Z",
+        "city_id": "a417f131-937d-4ef4-a506-aa06e9ad6566"
+      },
+      {
+        "id": "c5b42bf1-8e5b-49ea-82c3-e4236dc910da",
+        "name": "Township Authority",
+        "contact": "township@authority.org",
+        "created_at": "2023-09-21T01:46:41.811Z",
+        "updated_at": "2023-09-21T03:17:43.051Z",
+        "city_id": "2491dd2b-13d5-4927-a88d-7abc1032259e"
+      },
+      {
+        "id": "077aaeab-00c5-4bde-96c5-a29ca28ac902",
+        "name": "Regional Administration",
+        "contact": "admin@regional.gov",
+        "created_at": "2023-09-20T23:03:47.411Z",
+        "updated_at": "2023-09-21T18:14:30.391Z",
+        "city_id": "b6a0645d-5529-47de-a2fe-da8971edca18"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "d7d2fbfe-4c64-4855-90f4-3eb3008f7a42",
+        "name": "Black Diamond Syndicate",
+        "description": "Secret criminal organization operating worldwide",
+        "created_at": "2023-09-21T06:09:52.999Z",
+        "updated_at": "2023-09-21T04:32:08.848Z",
+        "city_id": "89028db5-7b70-4755-8361-bc67d90819ac"
+      },
+      {
+        "id": "3952f42c-394c-4b68-b1bd-dfc2c5ec8075",
+        "name": "Crimson Shadows",
+        "description": "Notorious gang involved in organized crime",
+        "created_at": "2023-09-21T01:07:59.853Z",
+        "updated_at": "2023-09-21T18:27:56.075Z",
+        "city_id": "89028db5-7b70-4755-8361-bc67d90819ac"
+      },
+      {
+        "id": "44612512-23dc-49ef-9ca3-718586de2245",
+        "name": "Midnight Brotherhood",
+        "description": "Infamous group known for illegal activities",
+        "created_at": "2023-09-21T13:50:43.151Z",
+        "updated_at": "2023-09-20T23:47:00.897Z",
+        "city_id": "4aa7b2e7-429a-4189-8114-4fefd765920f"
+      },
+      {
+        "id": "84cef516-bb59-4ce1-888b-7d05471e5347",
+        "name": "Silent Serpents",
+        "description": "Underground network with extensive reach",
+        "created_at": "2023-09-21T16:01:05.752Z",
+        "updated_at": "2023-09-21T02:20:07.249Z",
+        "city_id": "b6a0645d-5529-47de-a2fe-da8971edca18"
+      },
+      {
+        "id": "5f05a698-e0ce-4cd6-8092-338c6e8ae91f",
+        "name": "Shadow Syndicate",
+        "description": "Criminal syndicate specializing in smuggling and extortion",
+        "created_at": "2023-09-21T06:30:10.060Z",
+        "updated_at": "2023-09-21T05:41:37.121Z",
+        "city_id": "2491dd2b-13d5-4927-a88d-7abc1032259e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e205c895-cf8f-43f0-9a42-7685a1eab535",
+        "email": "Edwin2@roq.tech",
+        "firstName": "Jewell",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91833071",
+        "tenantId": null
+      },
+      {
+        "reference": "4c23a5f6-7724-455f-8aea-67ec15399476",
+        "email": "Sharon_Hermiston@roq.tech",
+        "firstName": "Houston",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be8633e0-31fc-4883-9452-87e210b1f4db",
+        "email": "Rhiannon76@roq.tech",
+        "firstName": "Charity",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49228487",
+        "tenantId": null
+      },
+      {
+        "reference": "9081faea-9594-4207-95fb-bb04d9e54527",
+        "email": "Gina.Aufderhar@roq.tech",
+        "firstName": "Antwan",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66398470",
+        "tenantId": null
+      },
+      {
+        "reference": "17e16639-ca83-4f52-8203-b8cd6219284c",
+        "email": "Emilio_Ondricka82@roq.tech",
+        "firstName": "Cole",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/82.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "3b0bf9f2-c337-45c7-a6bd-cb82dc28c62e",
+        "name": "New York",
+        "history": "Founded in 1624",
+        "danger_level": 61884,
+        "internet_coverage": 8079,
+        "taxi_availability": 74525,
+        "hotel_count": 26721,
+        "created_at": "2023-09-21T15:39:26.527Z",
+        "updated_at": "2023-09-21T14:34:37.258Z"
+      },
+      {
+        "id": "e37241c9-3247-404d-b45d-fb13e8440921",
+        "name": "London",
+        "history": "Known for its iconic landmarks",
+        "danger_level": 46087,
+        "internet_coverage": 64052,
+        "taxi_availability": 84890,
+        "hotel_count": 39494,
+        "created_at": "2023-09-21T13:24:59.030Z",
+        "updated_at": "2023-09-21T10:54:42.044Z"
+      },
+      {
+        "id": "430b04f1-4f34-4f68-a0bc-4110869c980a",
+        "name": "Tokyo",
+        "history": "Hosted the Olympics in 2020",
+        "danger_level": 25200,
+        "internet_coverage": 84240,
+        "taxi_availability": 14207,
+        "hotel_count": 69308,
+        "created_at": "2023-09-21T16:20:02.033Z",
+        "updated_at": "2023-09-21T16:14:25.856Z"
+      },
+      {
+        "id": "2b4a4c29-cbd3-4892-886a-bdfb904debcf",
+        "name": "Paris",
+        "history": "Famous for its cuisine",
+        "danger_level": 29238,
+        "internet_coverage": 49856,
+        "taxi_availability": 3699,
+        "hotel_count": 67496,
+        "created_at": "2023-09-21T13:40:52.287Z",
+        "updated_at": "2023-09-21T07:29:34.200Z"
+      },
+      {
+        "id": "74605641-1b35-4f47-828d-d86ffce36f85",
+        "name": "Sydney",
+        "history": "Home to renowned museums",
+        "danger_level": 76738,
+        "internet_coverage": 66721,
+        "taxi_availability": 86103,
+        "hotel_count": 68698,
+        "created_at": "2023-09-21T09:38:12.969Z",
+        "updated_at": "2023-09-20T19:55:51.141Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "7d778b0e-2906-4207-b25c-82cdca27384e",
+        "name": "John Smith",
+        "role": "CEO",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T00:49:13.175Z",
+        "updated_at": "2023-09-21T06:39:51.877Z",
+        "city_id": "74605641-1b35-4f47-828d-d86ffce36f85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3d3d496-7b8e-4062-aa0d-942560e4fe08",
+        "name": "Jane Doe",
+        "role": "Manager",
+        "bio": "Dedicated to helping others",
+        "created_at": "2023-09-21T01:59:13.577Z",
+        "updated_at": "2023-09-21T02:55:17.449Z",
+        "city_id": "74605641-1b35-4f47-828d-d86ffce36f85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca5f2604-1a84-4810-8862-e8d5ae37bdb9",
+        "name": "Michael Brown",
+        "role": "Engineer",
+        "bio": "Driven to achieve success",
+        "created_at": "2023-09-21T02:33:12.127Z",
+        "updated_at": "2023-09-20T21:19:57.918Z",
+        "city_id": "3b0bf9f2-c337-45c7-a6bd-cb82dc28c62e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3fa867e-eba0-4c52-90c1-e8246fcf04f5",
+        "name": "Sarah Jones",
+        "role": "Designer",
+        "bio": "Creative problem solver",
+        "created_at": "2023-09-21T16:37:17.775Z",
+        "updated_at": "2023-09-21T10:03:52.050Z",
+        "city_id": "74605641-1b35-4f47-828d-d86ffce36f85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76e3bcf2-684f-44f1-b48a-115aec660bb3",
+        "name": "David Wilson",
+        "role": "Salesperson",
+        "bio": "Excellent communication skills",
+        "created_at": "2023-09-21T10:56:29.426Z",
+        "updated_at": "2023-09-21T03:58:25.003Z",
+        "city_id": "2b4a4c29-cbd3-4892-886a-bdfb904debcf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "2536e2ea-db9f-456a-96f5-7cd01150d731",
+        "name": "City Council",
+        "contact": "contact@citycouncil.com",
+        "created_at": "2023-09-21T13:25:28.571Z",
+        "updated_at": "2023-09-21T16:41:18.487Z",
+        "city_id": "74605641-1b35-4f47-828d-d86ffce36f85"
+      },
+      {
+        "id": "3d96b96f-f415-4d20-9255-3e869dc54f6d",
+        "name": "Municipal Corporation",
+        "contact": "info@municipalcorp.com",
+        "created_at": "2023-09-21T00:43:03.197Z",
+        "updated_at": "2023-09-20T20:15:39.956Z",
+        "city_id": "430b04f1-4f34-4f68-a0bc-4110869c980a"
+      },
+      {
+        "id": "a2ad7231-3c7b-444f-9c0a-f280760f897f",
+        "name": "County Government",
+        "contact": "admin@countygovt.org",
+        "created_at": "2023-09-20T20:25:22.258Z",
+        "updated_at": "2023-09-21T03:10:54.436Z",
+        "city_id": "430b04f1-4f34-4f68-a0bc-4110869c980a"
+      },
+      {
+        "id": "d8b7e776-bcac-40e1-9408-bcc726cc1c12",
+        "name": "Town Board",
+        "contact": "townboard@example.com",
+        "created_at": "2023-09-21T01:17:23.464Z",
+        "updated_at": "2023-09-21T01:39:07.499Z",
+        "city_id": "2b4a4c29-cbd3-4892-886a-bdfb904debcf"
+      },
+      {
+        "id": "2dd55a32-922b-48db-8f9b-af07a0259342",
+        "name": "Regional Authority",
+        "contact": "info@regionalauthority.org",
+        "created_at": "2023-09-21T06:36:26.131Z",
+        "updated_at": "2023-09-21T01:56:08.248Z",
+        "city_id": "e37241c9-3247-404d-b45d-fb13e8440921"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "1d58fc65-c26a-4288-a031-91af291d7c9d",
+        "name": "The Syndicate",
+        "description": "International criminal organization",
+        "created_at": "2023-09-21T12:47:44.020Z",
+        "updated_at": "2023-09-21T09:47:13.004Z",
+        "city_id": "430b04f1-4f34-4f68-a0bc-4110869c980a"
+      },
+      {
+        "id": "0113cde5-cd77-4df4-b7c3-909b4e8c4b89",
+        "name": "Black Widow Gang",
+        "description": "Notorious for smuggling operations",
+        "created_at": "2023-09-20T21:47:55.819Z",
+        "updated_at": "2023-09-21T15:38:55.622Z",
+        "city_id": "74605641-1b35-4f47-828d-d86ffce36f85"
+      },
+      {
+        "id": "71450b8c-831e-4ffa-9192-44e2cf74daf6",
+        "name": "Shadow Cartel",
+        "description": "Involved in cybercrime activities",
+        "created_at": "2023-09-21T04:13:18.330Z",
+        "updated_at": "2023-09-21T15:37:15.192Z",
+        "city_id": "2b4a4c29-cbd3-4892-886a-bdfb904debcf"
+      },
+      {
+        "id": "dd8130a7-e2fb-4676-b196-81aa33e128fc",
+        "name": "Crimson Brotherhood",
+        "description": "Specializes in organized theft",
+        "created_at": "2023-09-20T23:06:19.924Z",
+        "updated_at": "2023-09-21T06:54:28.064Z",
+        "city_id": "74605641-1b35-4f47-828d-d86ffce36f85"
+      },
+      {
+        "id": "217370c0-142a-40bd-903c-d99e4803af75",
+        "name": "Nightfall Syndicate",
+        "description": "Known for their ruthless tactics",
+        "created_at": "2023-09-21T12:29:43.795Z",
+        "updated_at": "2023-09-20T21:12:18.084Z",
+        "city_id": "2b4a4c29-cbd3-4892-886a-bdfb904debcf"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6950b6aa-38b6-4c48-b5d2-f0f9e6000c82",
+        "email": "Summer34@roq.tech",
+        "firstName": "Braeden",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4134bba-b562-411c-bc73-03e426d0126b",
+        "email": "Irving_Kuhic@roq.tech",
+        "firstName": "Andy",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/617.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61d35dbf-425c-4413-952e-c25967761d31",
+        "email": "Evalyn_Schuster16@roq.tech",
+        "firstName": "Jairo",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67659373",
+        "tenantId": null
+      },
+      {
+        "reference": "2953681d-f574-42e3-87a1-587c287e6d67",
+        "email": "Icie.Balistreri79@roq.tech",
+        "firstName": "Amos",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/283.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bd712f80-ac64-47d0-8b11-be4b62dd1e77",
+        "email": "Maxie.Wuckert77@roq.tech",
+        "firstName": "Heather",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/878.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "city": [
+      {
+        "id": "256efdb1-8fcb-47c8-be1f-ad814865b31e",
+        "name": "New York",
+        "history": "Founded in 1624",
+        "danger_level": 38412,
+        "internet_coverage": 19712,
+        "taxi_availability": 4828,
+        "hotel_count": 39899,
+        "created_at": "2023-09-21T14:08:44.921Z",
+        "updated_at": "2023-09-21T03:29:01.528Z"
+      },
+      {
+        "id": "0840c9ce-74d8-4a0e-a628-726f89d7a894",
+        "name": "London",
+        "history": "Known for its iconic landmarks",
+        "danger_level": 42941,
+        "internet_coverage": 77745,
+        "taxi_availability": 3531,
+        "hotel_count": 10303,
+        "created_at": "2023-09-20T23:37:30.546Z",
+        "updated_at": "2023-09-21T18:29:15.934Z"
+      },
+      {
+        "id": "e3113e69-c628-4c21-bf74-16bf3f075207",
+        "name": "Tokyo",
+        "history": "Hosted the Olympic Games",
+        "danger_level": 4316,
+        "internet_coverage": 48738,
+        "taxi_availability": 6441,
+        "hotel_count": 67431,
+        "created_at": "2023-09-20T19:54:03.078Z",
+        "updated_at": "2023-09-21T17:29:40.564Z"
+      },
+      {
+        "id": "1cb36cef-bf74-4ed3-aeba-72f8d5775ca6",
+        "name": "Paris",
+        "history": "Famous for its cuisine",
+        "danger_level": 69604,
+        "internet_coverage": 92333,
+        "taxi_availability": 70756,
+        "hotel_count": 9885,
+        "created_at": "2023-09-20T21:17:28.511Z",
+        "updated_at": "2023-09-21T01:59:04.453Z"
+      },
+      {
+        "id": "477c7756-2635-4761-a59f-0604b5e2cc6e",
+        "name": "Sydney",
+        "history": "Home to renowned museums",
+        "danger_level": 1588,
+        "internet_coverage": 17789,
+        "taxi_availability": 98511,
+        "hotel_count": 48865,
+        "created_at": "2023-09-21T13:17:32.910Z",
+        "updated_at": "2023-09-21T01:15:31.004Z"
+      }
+    ],
+    "person": [
+      {
+        "id": "0333c138-4fd3-41b4-9239-89d0af6a4d52",
+        "name": "John Doe",
+        "role": "Engineer",
+        "bio": "Passionate about technology",
+        "created_at": "2023-09-21T08:38:34.474Z",
+        "updated_at": "2023-09-21T11:58:20.885Z",
+        "city_id": "256efdb1-8fcb-47c8-be1f-ad814865b31e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1257970e-e921-487a-8438-92d4ea77d070",
+        "name": "Jane Smith",
+        "role": "Designer",
+        "bio": "Dedicated to creating innovative solutions",
+        "created_at": "2023-09-21T11:34:17.336Z",
+        "updated_at": "2023-09-21T17:35:16.080Z",
+        "city_id": "1cb36cef-bf74-4ed3-aeba-72f8d5775ca6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c56a7af7-8659-4a49-a99d-d56f24bac7d6",
+        "name": "Michael Brown",
+        "role": "Manager",
+        "bio": "Experienced in project management",
+        "created_at": "2023-09-21T12:08:13.261Z",
+        "updated_at": "2023-09-20T22:25:01.821Z",
+        "city_id": "1cb36cef-bf74-4ed3-aeba-72f8d5775ca6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c51fd1f1-b497-462a-a42f-06574a49e1ee",
+        "name": "Sarah Jones",
+        "role": "Analyst",
+        "bio": "Analytical thinker",
+        "created_at": "2023-09-21T01:47:17.839Z",
+        "updated_at": "2023-09-21T13:20:16.904Z",
+        "city_id": "477c7756-2635-4761-a59f-0604b5e2cc6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c159d35-5e4e-451d-b50a-471b6710ee2d",
+        "name": "David Wilson",
+        "role": "Developer",
+        "bio": "Constantly learning and growing",
+        "created_at": "2023-09-21T19:31:38.264Z",
+        "updated_at": "2023-09-21T06:37:52.750Z",
+        "city_id": "e3113e69-c628-4c21-bf74-16bf3f075207",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "local_authority": [
+      {
+        "id": "bcc46c44-117f-465d-abd1-a99d5b3997c0",
+        "name": "City Council",
+        "contact": "contact@example.com",
+        "created_at": "2023-09-21T17:50:54.600Z",
+        "updated_at": "2023-09-21T05:50:44.270Z",
+        "city_id": "256efdb1-8fcb-47c8-be1f-ad814865b31e"
+      },
+      {
+        "id": "496425d2-fdcd-4c1a-908a-7ff1cf845124",
+        "name": "Municipal Corporation",
+        "contact": "info@example.com",
+        "created_at": "2023-09-21T10:42:12.091Z",
+        "updated_at": "2023-09-21T12:08:28.302Z",
+        "city_id": "0840c9ce-74d8-4a0e-a628-726f89d7a894"
+      },
+      {
+        "id": "97765cee-9537-4c57-a257-fde1916d25fd",
+        "name": "Town Board",
+        "contact": "admin@example.com",
+        "created_at": "2023-09-21T02:36:16.616Z",
+        "updated_at": "2023-09-21T16:50:36.592Z",
+        "city_id": "477c7756-2635-4761-a59f-0604b5e2cc6e"
+      },
+      {
+        "id": "e2c868db-c957-4641-ba5d-6199f404998a",
+        "name": "County Government",
+        "contact": "support@example.com",
+        "created_at": "2023-09-20T23:01:01.597Z",
+        "updated_at": "2023-09-21T17:40:04.181Z",
+        "city_id": "0840c9ce-74d8-4a0e-a628-726f89d7a894"
+      },
+      {
+        "id": "98eead9b-ef93-40b4-85fd-39a965cf9a92",
+        "name": "Regional Authority",
+        "contact": "enquiries@example.com",
+        "created_at": "2023-09-21T16:14:38.335Z",
+        "updated_at": "2023-09-20T20:24:43.931Z",
+        "city_id": "1cb36cef-bf74-4ed3-aeba-72f8d5775ca6"
+      }
+    ],
+    "crime_organisation": [
+      {
+        "id": "06c87df0-5fe6-457b-bfa6-6e6f2f8c6f8d",
+        "name": "The Syndicate",
+        "description": "Notorious criminal organization",
+        "created_at": "2023-09-21T01:56:37.306Z",
+        "updated_at": "2023-09-21T03:11:35.810Z",
+        "city_id": "1cb36cef-bf74-4ed3-aeba-72f8d5775ca6"
+      },
+      {
+        "id": "ced713cf-bf08-466c-8b16-fb909129aeeb",
+        "name": "Black Widow Gang",
+        "description": "Involved in illegal activities",
+        "created_at": "2023-09-21T03:12:09.402Z",
+        "updated_at": "2023-09-21T13:49:50.959Z",
+        "city_id": "256efdb1-8fcb-47c8-be1f-ad814865b31e"
+      },
+      {
+        "id": "0f795b25-b1cd-44da-bc7d-de5081e1583e",
+        "name": "Crimson Cartel",
+        "description": "Operating globally",
+        "created_at": "2023-09-21T18:20:00.009Z",
+        "updated_at": "2023-09-21T09:33:45.645Z",
+        "city_id": "e3113e69-c628-4c21-bf74-16bf3f075207"
+      },
+      {
+        "id": "e646f2ad-f486-4152-b275-5f97f94c6ce8",
+        "name": "Shadow Syndicate",
+        "description": "Known for their ruthlessness",
+        "created_at": "2023-09-21T12:30:15.366Z",
+        "updated_at": "2023-09-21T18:20:27.419Z",
+        "city_id": "e3113e69-c628-4c21-bf74-16bf3f075207"
+      },
+      {
+        "id": "00397012-065b-4ee1-81c0-67a3aed665e0",
+        "name": "The Viper Organization",
+        "description": "Feared by law enforcement",
+        "created_at": "2023-09-21T13:33:36.625Z",
+        "updated_at": "2023-09-21T06:26:59.142Z",
+        "city_id": "256efdb1-8fcb-47c8-be1f-ad814865b31e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d28fc1f9-d329-4ff5-9ebb-c905f1015e11",
+        "email": "Jadon.Graham7@roq.tech",
+        "firstName": "Jo",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f663f3a6-6bd3-4b0d-98cd-3b639ace9cf1",
+        "email": "Marcus7@roq.tech",
+        "firstName": "Brant",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15252098",
+        "tenantId": null
+      },
+      {
+        "reference": "8d33cc2d-a337-4057-b789-2fcd49f0bcea",
+        "email": "Angela_Hammes@roq.tech",
+        "firstName": "Kylie",
+        "lastName": "Carroll-Christiansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18339642",
+        "tenantId": null
+      },
+      {
+        "reference": "0ca23dfb-c47f-4c6e-9f52-942b056a6f4c",
+        "email": "Shirley_Ratke-Crona@roq.tech",
+        "firstName": "Jeffrey",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12700588",
+        "tenantId": null
+      },
+      {
+        "reference": "a8c2ef4e-7735-4c12-81d3-bdea2678eb50",
+        "email": "Jack.Beahan@roq.tech",
+        "firstName": "Barrett",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27206343",
+        "tenantId": null
+      }
+    ]
+  }
+]
